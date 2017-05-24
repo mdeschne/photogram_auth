@@ -1,4 +1,4 @@
-class Comment < ActiveRecord
+class Comment < ActiveRecord::Base
 
   validates :user_id, :photo_id, :body, :presence => true
 
